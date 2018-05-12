@@ -7,48 +7,38 @@ export class Items {
   items: Item[] = [];
 
   defaultItem: any = {
-    "name": "Burt Bear",
+    "name": "Tomatentagesplan",
     "profilePic": "assets/img/speakers/bear.jpg",
-    "about": "Burt is a Bear.",
+    "about": "Plane deinen Tag mit Tomaten.",
   };
 
 
   constructor() {
     let items = [
       {
-        "name": "Burt Bear",
+        "name": "Tomatentagesplan",
         "profilePic": "assets/img/speakers/bear.jpg",
-        "about": "Burt is a Bear."
+        "about": "Plane deinen Tag mit Tomaten."
       },
       {
-        "name": "Charlie Cheetah",
+        "name": "Tomatenwochenplan",
         "profilePic": "assets/img/speakers/cheetah.jpg",
-        "about": "Charlie is a Cheetah."
+        "about": "Plane deine Woche mit Tomaten."
       },
       {
-        "name": "Donald Duck",
+        "name": "Challenge Wochenplan",
         "profilePic": "assets/img/speakers/duck.jpg",
-        "about": "Donald is a Duck."
+        "about": "Erstelle 7 Challenges und wähle jeden Tag zufällig eine."
       },
       {
-        "name": "Eva Eagle",
+        "name": "Challenge Spielkarten",
         "profilePic": "assets/img/speakers/eagle.jpg",
-        "about": "Eva is an Eagle."
+        "about": "Erstelle ein Spielkartendeck mit Challenges, die du dann zufällig auswählen kannst."
       },
       {
-        "name": "Ellie Elephant",
+        "name": "Meeting Checkin",
         "profilePic": "assets/img/speakers/elephant.jpg",
-        "about": "Ellie is an Elephant."
-      },
-      {
-        "name": "Molly Mouse",
-        "profilePic": "assets/img/speakers/mouse.jpg",
-        "about": "Molly is a Mouse."
-      },
-      {
-        "name": "Paul Puppy",
-        "profilePic": "assets/img/speakers/puppy.jpg",
-        "about": "Paul is a Puppy."
+        "about": "Lasse jeden am Anfang eines Meetings ein Checkin machen."
       }
     ];
 

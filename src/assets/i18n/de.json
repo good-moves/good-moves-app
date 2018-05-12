@@ -8,7 +8,7 @@
   "SIGNUP": "Registrieren",
   "CANCEL_BUTTON": "Schließen",
 
-  "TAB1_TITLE": "Items",
+  "TAB1_TITLE": "Moves",
   "TAB2_TITLE": "Suche",
   "TAB3_TITLE": "Einstellung",
 
@@ -25,7 +25,7 @@
 
   "TUTORIAL_CONTINUE_BUTTON": "Fortfahren",
 
-  "WELCOME_INTRO": "Der Startpunkt für Deine nächste tolle Ionic App",
+  "WELCOME_INTRO": "Good Moves - Die nächste Stufe deines Trainings",
 
   "SETTINGS_TITLE": "Einstellungen",
   "SETTINGS_OPTION1": "Option 1",
@@ -44,13 +44,13 @@
   "SIGNUP_ERROR": "Fehler beim Registrieren, bitte überprüfe deine Informationen und versuche es erneut.",
   "SIGNUP_BUTTON": "Registrieren",
 
-  "LIST_MASTER_TITLE": "Artikel",
+  "LIST_MASTER_TITLE": "Moves",
 
-  "ITEM_CREATE_TITLE": "Neuer Artikel",
-  "ITEM_CREATE_CHOOSE_IMAGE": "Artikel hinzufügen",
+  "ITEM_CREATE_TITLE": "Neuer Move",
+  "ITEM_CREATE_CHOOSE_IMAGE": "Move hinzufügen",
 
   "CARDS_TITLE": "Social",
 
   "SEARCH_TITLE": "Suche",
-  "SEARCH_PLACEHOLDER": "Suche in der Artikel-Liste, z.B. \"Donald Duck\""
+  "SEARCH_PLACEHOLDER": "Suche in der Move-Liste, z.B. \"Tomate\""
 }
