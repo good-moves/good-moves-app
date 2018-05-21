@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { IonicPage, NavController, ToastController } from 'ionic-angular';
 
+
 import { User } from '../../providers';
 import { MainPage } from '../';
 
@@ -33,21 +34,11 @@ export class SignupPage {
     })
   }
 
-  doSignup() {
+  async doSignup() {
     // Attempt to login in through our User service
-    this.user.signup(this.account).subscribe((resp) => {
-      this.navCtrl.push(MainPage);
-    }, (err) => {
-
-      this.navCtrl.push(MainPage);
-
-      // Unable to sign up
-      let toast = this.toastCtrl.create({
-        message: this.signupErrorString,
-        duration: 3000,
-        position: 'top'
-      });
-      toast.present();
-    });
+   this.user.signUp(this.account).then(
+      () => this.navCtrl.push(MainPage),
+      error => this.signupErrorString = error.message
+   );
   }
 }
