@@ -38,7 +38,15 @@ export class SignupPage {
     // Attempt to login in through our User service
    this.user.signUp(this.account).then(
       () => this.navCtrl.push(MainPage),
-      error => this.signupErrorString = error.message
+      error => {
+        // Unable to sign up
+        let toast = this.toastCtrl.create({
+          message: this.signupErrorString,
+          duration: 3000,
+          position: 'top'
+        });
+        toast.present();
+      }
    );
   }
 }

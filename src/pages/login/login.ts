@@ -37,7 +37,15 @@ export class LoginPage {
     // Attempt to login in through our User service
     this.user.signInWithEmail(this.account).then(
       () => this.navCtrl.push(MainPage),
-      error => this.loginErrorString = error.message
+      error => {
+          // Unable to log in
+        let toast = this.toastCtrl.create({
+          message: this.loginErrorString,
+          duration: 3000,
+          position: 'top'
+        });
+        toast.present();
+      }
    );
   }
 }
