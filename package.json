@@ -29,7 +29,8 @@
         "@ngx-translate/core": "8.0.0",
         "@ngx-translate/http-loader": "^2.0.0",
         "angularfire2": "^5.0.0-rc.4",
-        "cordova-ios": "^4.4.0",
+        "cordova-android": "^6.2.3",
+        "cordova-ios": "^4.5.4",
         "cordova-plugin-device": "^2.0.2",
         "cordova-plugin-ionic-keyboard": "^2.0.5",
         "cordova-plugin-ionic-webview": "^1.1.19",
@@ -57,6 +58,7 @@
             "cordova-plugin-whitelist": {}
         },
         "platforms": [
+            "android",
             "ios"
         ]
     }
